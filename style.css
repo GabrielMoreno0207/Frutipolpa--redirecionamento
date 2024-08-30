@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+h1, h2{
+    font-family: "Concert One", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* Adiciona um efeito de aumento e sombra ao passar o mouse sobre os botões */
+.btn-hover {
+  display: inline-block;
+  background-color: #1e3a8a; /* Cor de fundo padrão */
+  color: #ffffff; /* Cor do texto */
+  padding: 0.5rem 1rem; /* Espaçamento interno */
+  border-radius: 0.375rem; /* Bordas arredondadas */
+  text-align: center; /* Alinha o texto no centro */
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Transições suaves */
+}
+
+.btn-hover:hover {
+  background-color: #1e40af; /* Cor de fundo ao passar o mouse */
+  transform: scale(1.05); /* Aumenta o tamanho do botão */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra ao botão */
+}
+
+/* Estilo para as seções de botões sociais */
+.social-btn {
+  background-color: #1e3a8a; /* Cor de fundo padrão */
+  color: #ffffff; /* Cor do texto */
+  padding: 0.5rem 1rem; /* Espaçamento interno */
+  border-radius: 0.375rem; /* Bordas arredondadas */
+  text-align: center; /* Alinha o texto no centro */
+  display: inline-block; /* Faz o link se comportar como um bloco inline */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Transições suaves */
+}
+
+.social-btn:hover {
+  background-color: #1e40af; /* Cor de fundo ao passar o mouse */
+  transform: scale(1.05); /* Aumenta o tamanho do botão */
+}
+
+
+
