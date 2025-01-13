@@ -9,7 +9,7 @@ h1, h2{
 /* Adiciona um efeito de aumento e sombra ao passar o mouse sobre os botões */
 .btn-hover {
   display: inline-block;
-  background-color: #1e3a8a; /* Cor de fundo padrão */
+  background-color: #4773b7; /* Cor de fundo padrão */
   color: #ffffff; /* Cor do texto */
   padding: 0.5rem 1rem; /* Espaçamento interno */
   border-radius: 0.375rem; /* Bordas arredondadas */
@@ -18,14 +18,14 @@ h1, h2{
 }
 
 .btn-hover:hover {
-  background-color: #1e40af; /* Cor de fundo ao passar o mouse */
+  background-color: #4773b7; /* Cor de fundo ao passar o mouse */
   transform: scale(1.05); /* Aumenta o tamanho do botão */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra ao botão */
 }
 
 /* Estilo para as seções de botões sociais */
 .social-btn {
-  background-color: #1e3a8a; /* Cor de fundo padrão */
+  background-color: #4773b7; /* Cor de fundo padrão */
   color: #ffffff; /* Cor do texto */
   padding: 0.5rem 1rem; /* Espaçamento interno */
   border-radius: 0.375rem; /* Bordas arredondadas */
@@ -35,7 +35,7 @@ h1, h2{
 }
 
 .social-btn:hover {
-  background-color: #1e40af; /* Cor de fundo ao passar o mouse */
+  background-color: #4773b7; /* Cor de fundo ao passar o mouse */
   transform: scale(1.05); /* Aumenta o tamanho do botão */
 }
 
